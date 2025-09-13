@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+  inta,b,c;
+  printf("enter 3 number");
+  scanf("%D%d%d",&a,&b,&c);
+switch(a>b){
+  case1:
+switch(a>c){
+   case1:printf("max=%d",a);
+break;
+   case0:printf("max=5d",c);
+break;
+}
+break;
+case0:
+switch(b>c){
+  case1:printf("max=%d",b);
+break;
+case0:printf("max=%d",c);
+break;
+}
+break;
+}
+return 0;
+}
